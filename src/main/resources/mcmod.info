@@ -1,0 +1,21 @@
+[
+{
+  "modid": "UtilityBelt",
+  "name": "Utility Belt",
+  "description": "Stuff your most used tools in a belt and have them all ready to use.",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "sperly"
+  ],
+  "credits": "sperly",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

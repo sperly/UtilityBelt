@@ -1,0 +1,9 @@
+# Item localizations
+item.utilitybelt:basicUtilityBelt.name=Basic Utility Belt
+
+
+# Block localizations
+tile.utilitybelt:tooliumBlock.name=Toolium Block
+
+# ItemGroup localizations
+itemGroup.utilitybelt=Utility Belt
