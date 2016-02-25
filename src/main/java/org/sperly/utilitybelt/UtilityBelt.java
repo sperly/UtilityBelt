@@ -1,5 +1,7 @@
 package org.sperly.utilitybelt;
 
+import cpw.mods.fml.common.gameevent.InputEvent;
+import org.sperly.utilitybelt.client.handler.KeyInputEventHandler;
 import org.sperly.utilitybelt.init.ModBlocks;
 import org.sperly.utilitybelt.init.ModItems;
 import org.sperly.utilitybelt.proxy.IProxy;
@@ -29,6 +31,9 @@ public class UtilityBelt
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
+
+        proxy.registerKeyBindings();
+
         ModItems.init();
         ModBlocks.init();
 
@@ -38,7 +43,7 @@ public class UtilityBelt
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
     }
 
     @Mod.EventHandler

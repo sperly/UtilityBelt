@@ -1,4 +1,4 @@
-package org.sperly.utilitybelt.gui;
+package org.sperly.utilitybelt.client.gui;
 
 
 import cpw.mods.fml.client.IModGuiFactory;

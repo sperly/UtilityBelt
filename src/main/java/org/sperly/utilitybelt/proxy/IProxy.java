@@ -3,5 +3,5 @@ package org.sperly.utilitybelt.proxy;
 
 public interface IProxy
 {
-
+    public abstract void registerKeyBindings();
 }

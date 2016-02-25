@@ -7,3 +7,7 @@ tile.utilitybelt:tooliumBlock.name=Toolium Block
 
 # ItemGroup localizations
 itemGroup.utilitybelt=Utility Belt
+
+# Keys localizations
+keys.utilitybelt.category=Utility Belt
+keys.utilitybelt.tool_switch=Switch Tool

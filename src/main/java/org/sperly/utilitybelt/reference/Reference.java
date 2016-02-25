@@ -9,5 +9,5 @@ public class Reference
     public static final String FINGERPRINT = "";
     public static final String SERVER_PROXY_CLASS = "org.sperly.utilitybelt.proxy.ServerProxy";
     public static final String CLIENT_PROXY_CLASS = "org.sperly.utilitybelt.proxy.ClientProxy";
-    public static final String GUI_FACTORY_CLASS = "org.sperly.utilitybelt.gui.GuiFactory";
+    public static final String GUI_FACTORY_CLASS = "org.sperly.utilitybelt.client.gui.GuiFactory";
 }
